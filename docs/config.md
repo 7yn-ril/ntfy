@@ -1571,7 +1571,7 @@ or the root domain:
     # via the contact page (https://ntfy.sh/docs/contact/) or in a GitHub issue.
     # Note: Caddy automatically handles both HTTP and WebSockets with reverse_proxy 
 
-    ntfy.sh, http://nfty.sh {
+    ntfy.sh, http://ntfy.sh {
         reverse_proxy 127.0.0.1:2586
 
         # Redirect HTTP to HTTPS, but only for GET topic addresses, since we want
